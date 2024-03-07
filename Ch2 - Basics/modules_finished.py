@@ -11,3 +11,13 @@ print("The square root of 16 is", math.sqrt(16))
 print("Pi is:", math.pi)
 
 # try some of the math functions for yourself here:
+
+thestr = "Ogres are often foolhardy oafs"
+newstr = ""
+for i, c in enumerate(thestr):
+    if c == "o":
+        continue
+    if i > 20:
+        break
+    newstr += c
+print(newstr)
