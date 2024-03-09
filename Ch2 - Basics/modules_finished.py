@@ -21,3 +21,22 @@ for i, c in enumerate(thestr):
         break
     newstr += c
 print(newstr)
+
+def inc(a,b=1):
+    return(a+b)
+a=inc(1)
+a=inc(a,a)
+print(a)
+
+
+thestr = "This is a string"
+print(thestr)
+thestr = 5
+
+try:
+    x=int("five")
+except ValueError:
+    print("There is a value error.")
+finally:
+    print("Something went wrong.")
+
