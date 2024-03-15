@@ -45,3 +45,13 @@ def main():
 if __name__ == "__main__":
     main()
   
+#Your program needs to alert the user if their password expires in less than 7 days
+    #You need to get the current date/time using the datetime module
+    #You also need to check when the password was last changed - this will be stored in the database as a timestamp
+    #You also need to calculate how many days are left until the password expires
+    #If there are 7 or fewer days remaining, you should display an urgent message saying so
+    #Otherwise, just show a normal message saying how many days are left
+    # Assuming the password expiration date is in the texp variable,
+ 
+#   if ((texp-date.today()).days<7):
+#     print("password will expire soon!")

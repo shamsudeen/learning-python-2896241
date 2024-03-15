@@ -50,3 +50,9 @@ for m in range(1,13):
         meetday = weektwo[calendar.FRIDAY]
       
     print ("%10s %2d" % (calendar.month_name[m], meetday))
+
+
+#  to correctly print day of the week # 
+today=date.today()
+days=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+print("Tomorrow will be "+days[(today.weekday()+1)%7])
